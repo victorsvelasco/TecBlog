@@ -26,6 +26,11 @@ a:hover {
 	background: #FFF;
 }
 
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
 /*
 ***Layout***
 */
@@ -39,9 +44,35 @@ a:hover {
 	padding: 10px;
 }
 
-h1{
-	color: #4e4e4e;
-	font-size: 2.5em;
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+}
+
+#area-postagens, #area-lateral{
+	background: orange;
+}
+
+#area-postagens{
+	width: 660px;
+	float: left;
+}
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+#rodape{
+	background: #CCC;
+	text-align: center;
+	padding: 15px;
+	clear: both;
 }
 
 .branco{
